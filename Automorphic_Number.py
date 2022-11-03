@@ -1,7 +1,8 @@
-N=int(input())
-A=str(N)
-B=str(N*N)
-if(A in B):
+a=int(input())
+b=a**2
+c=str(a)
+d=b%10**len(c)
+if d==a:
     print("Automorphic Number")
 else:
     print("Not an Automorphic Number")
